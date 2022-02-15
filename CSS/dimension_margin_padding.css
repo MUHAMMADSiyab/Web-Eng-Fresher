@@ -1,0 +1,20 @@
+div {
+  width: 350px;
+  height: 350px;
+  color: #fff;
+  background-color: purple;
+
+  /* margin-left: 50px;
+  margin-top: 80px; */
+
+  /* Y X */
+  margin: 50px auto;
+
+  /* margin: 100px; */
+
+  /* margin-left: -100px; */
+
+  box-sizing: border-box;
+
+  padding: 50px;
+}

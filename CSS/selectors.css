@@ -1,0 +1,66 @@
+/* Class and ID selectors */
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  margin: 100px;
+}
+
+.rounded {
+  border-radius: 20px;
+}
+
+#circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: #000;
+}
+
+/* All selector */
+* {
+  border: 2px solid transparent;
+}
+
+/* Multiple selector */
+h1,
+h2,
+h3 {
+  font-family: sans-serif;
+  color: rgb(190, 76, 0);
+  text-align: center;
+}
+
+/* DESC Selectors */
+
+.container {
+  width: 100%;
+  height: 300px;
+  background-color: pink;
+  padding: 15px;
+  margin-top: 50px;
+  box-sizing: border-box;
+  font-size: 150%;
+}
+
+/* Direct children */
+.container > a {
+  color: #000;
+}
+
+/* All children */
+.container a {
+  color: purple;
+  font-family: sans-serif;
+  letter-spacing: 15px;
+}
+
+/* Direct sibling */
+h1 + h2 {
+  border: 2px solid transparent;
+}
+
+/* All sibling */
+h1 ~ h2 {
+  border: 2px solid rgb(122, 0, 179);
+}

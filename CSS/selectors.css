@@ -64,3 +64,76 @@ h1 + h2 {
 h1 ~ h2 {
   border: 2px solid rgb(122, 0, 179);
 }
+
+/* PSEUDO SELECTORS & CLASSES */
+
+.btn {
+  margin: 60px auto;
+  padding: 20px;
+  background-color: indigo;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 1rem;
+  border-radius: 50px;
+}
+
+.btn:hover {
+  background-color: black;
+  padding: 30px;
+}
+
+.btn:focus {
+  background-color: red;
+}
+.inp {
+  outline: none;
+  border: 2px solid purple;
+}
+
+.inp:focus {
+  width: 200px;
+  height: 60px;
+  font-size: 2rem;
+}
+
+.list li:nth-child(1) {
+  background-color: indigo;
+  color: #fff;
+}
+
+p:not(.exclude-me) {
+  color: green;
+}
+
+#ch:checked + label {
+  font-size: 1.4rem;
+  color: red;
+}
+
+/* Selectors */
+.inp::placeholder {
+  color: orange;
+}
+
+p::selection {
+  background-color: teal;
+  color: yellow;
+}
+
+.container::after {
+  content: "I am the after element";
+  display: block;
+  padding: 30px;
+  background-color: blueviolet;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.container::before {
+  content: "I am the before element";
+  display: block;
+  padding: 30px;
+  background-color: rgb(17, 17, 17);
+  color: #fff;
+  border-radius: 10px;
+}

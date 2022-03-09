@@ -1,0 +1,28 @@
+body {
+  background-color: #000;
+}
+.box {
+  border-radius: 20px;
+  width: 400px;
+  height: 400px;
+  background: linear-gradient(blueviolet, purple, hotpink);
+  color: #fff;
+  margin: 100px auto;
+  padding: 10px;
+  /* transform: translate(-200px); */
+
+  /* transform: scale(1.5, 0.5); */
+
+  /* transform: rotate(360deg); */
+
+  /* transform: skew(-40deg); */
+
+  /* transition: transform 0.7s ease-in, border-radius 0.4s linear; */
+  transition: all 0.8s ease-in;
+}
+
+.box:hover {
+  border-radius: 50%;
+  transform: rotate(45deg) scale(0.5);
+  box-shadow: 2px 5px 200px rgb(163, 1, 50), 10px 15px 100px rgb(136, 1, 163);
+}

@@ -1,0 +1,25 @@
+img {
+  border-radius: 20px;
+  /* border: 10px solid transparent;
+  outline: 2px solid rgb(14, 15, 14); */
+
+  /* filter: brightness(50%); */
+  /* filter: contrast(30%); */
+  /* filter: saturate(700%); */
+
+  /* filter: drop-shadow(15px 15px 50px rgb(128, 128, 128)); */
+
+  /* filter: opacity(50%); */
+
+  /* filter: grayscale(100%); */
+
+  transform: scale(0.8);
+  filter: blur(20px);
+
+  transition: filter 0.5s linear;
+}
+
+img:hover {
+  /* filter: grayscale(0%); */
+  filter: blur(0);
+}

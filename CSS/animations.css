@@ -1,0 +1,51 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(89, 3, 202);
+  /* margin: 80px auto; */
+  border-radius: 15px;
+  /* animation-name: fade;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: 3; */
+
+  /* animation: fade 2s 0s ease-in 1; */
+  animation: animate 10s;
+}
+
+/* Create an animation */
+@keyframes fade {
+  from {
+    opacity: 0;
+    transform: scale(0);
+  }
+
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes animate {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  25% {
+    transform: translate(400px, 0);
+  }
+
+  50% {
+    transform: translate(400px, 400px);
+  }
+
+  75% {
+    transform: translate(0, 400px);
+  }
+
+  100% {
+    transform: scale(0);
+    opacity: 0;
+  }
+}

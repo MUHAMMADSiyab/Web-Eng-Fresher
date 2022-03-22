@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap");
+
+.container {
+  width: 90%;
+  margin: 20px auto;
+  font-family: "Poppins", sans-serif;
+}
+
+table {
+  width: 100%;
+}
+
+tr,
+td,
+th {
+  padding: 10px;
+  /* border: 1px solid rgb(201, 201, 201); */
+  text-align: center;
+  font-size: small;
+}
+
+tbody {
+  color: rgb(70, 70, 70);
+}
+
+thead tr {
+  background-color: rgb(30, 31, 31);
+  color: #f7f7f7;
+}
+
+table tbody tr:nth-child(odd) {
+  background-color: rgb(212, 212, 212);
+}
+
+table tbody tr td:nth-child(odd) {
+  font-weight: bold;
+  background-color: green;
+  color: #fff;
+}
+
+table tbody tr:hover {
+  background-color: rgb(212, 212, 212);
+}

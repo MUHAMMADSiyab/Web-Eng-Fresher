@@ -1,0 +1,29 @@
+.box {
+  margin: 100px auto;
+  width: 200px;
+  height: 200px;
+  /* border: 30px solid transparent; */
+  /* border-left: none;
+  border-right: none;
+  border-top: none; */
+  border-bottom: 30px solid rgb(116, 4, 196);
+  border-radius: 50%;
+
+  animation: spin 1s infinite ease-out;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg) scale(0);
+  }
+
+  50% {
+    opacity: 0;
+    transform: scale(0) rotate(0deg);
+  }
+
+  100% {
+    transform: scale(1) rotate(-360deg);
+    opacity: 1;
+  }
+}

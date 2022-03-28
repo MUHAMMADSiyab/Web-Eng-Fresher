@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,500&display=swap");
+
+nav {
+  --nav-height: 70px;
+  width: 90%;
+  height: var(--nav-height);
+  margin: 50px auto;
+  background-color: rgb(130, 0, 223);
+  border-radius: 5px;
+  display: flex;
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+nav .brand {
+  flex-basis: 40%;
+  height: 100%;
+}
+
+nav .brand a {
+  color: #fff;
+  font-size: 1.7rem;
+  font-weight: 700;
+  text-decoration: none;
+  line-height: var(--nav-height);
+  margin-left: 30px;
+}
+
+nav .nav-menu {
+  flex-basis: 60%;
+  height: 100%;
+  list-style: none;
+
+  margin-top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-inline-start: 0 !important;
+}
+
+nav .nav-menu li {
+  height: 100%;
+  line-height: var(--nav-height);
+  flex-grow: 1;
+}
+
+nav .nav-menu li a {
+  text-align: center;
+  height: 100%;
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.4s ease;
+}
+
+nav .nav-menu li a:hover {
+  background-color: indigo;
+  border-radius: 6px;
+}
